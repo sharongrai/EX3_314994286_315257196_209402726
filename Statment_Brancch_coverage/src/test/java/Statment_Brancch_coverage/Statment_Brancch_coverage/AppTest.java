@@ -27,5 +27,28 @@ public class AppTest
         assertEquals(expected, result,0.001);
         
     }
+    @Test
+   	
+    public void a_bigger_than_b(){
+           int a = 4;
+           int b = 2;
+           
+        
+           int expected =2;
+           int result = App.Add(a, b);
+           assertEquals(expected, result,0.001);
+           
+       }
    
+    @Test
+	public void a_thesame_b(){
+        int a = 1;
+        int b = 1;
+        
+     
+        int expected =0;
+        int result = App.Add(a, b);
+        assertEquals(expected, result,0.001);
+        
+    }
     }
