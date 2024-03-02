@@ -4,7 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class Ex5_Test {
+
+public class Ex5 {
 	
 	@Test
 	public void TC_1_2_4_17 () {
@@ -65,7 +66,7 @@ public class Ex5_Test {
 	@Test
 	public void TC_1_3_7_13_16_22 () {
 	boolean expected = true;
-	boolean result = StatusClass.checkOut(1700.00, 900, StatusClass.Status.silver);
+	boolean result = StatusClass.checkOut(1700.00, 900, StatusClass.Status.bronze);
 	assertEquals(expected, result);
 	}
 

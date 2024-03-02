@@ -4,10 +4,11 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
 
-public class junitRunnerTest {
+
+public class junitTestRunner {
 	
 	 public static void main(String[] args) {
-	      Result result = JUnitCore.runClasses(TestSuite.class);
+		 Result result = JUnitCore.runClasses(TestSuite1.class);
 
 	      for (Failure failure : result.getFailures()) {
 	         System.out.println(failure.toString());

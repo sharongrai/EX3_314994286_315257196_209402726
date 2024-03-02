@@ -4,7 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class Ex4_a_Test {
+import Statment_Brancch_coverage.Statment_Brancch_coverage.WeakClass;
+
+public class Ex4_a {
 	@Test
 	public void xANDy_bigger_then_z() {
 		int x=1;

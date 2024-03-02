@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class Ex3_a_Test {
+public class Ex3_a {
 	@Test
-	public void x_bigger_then_y() {
+	public void x_bigger_then_y(){
 		int x=6;
 		int y=2;
 		int expected_result = 7;

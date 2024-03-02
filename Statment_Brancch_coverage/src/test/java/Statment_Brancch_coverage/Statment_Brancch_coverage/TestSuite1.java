@@ -6,11 +6,8 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-	Ex1_b_Test.class,
-
-})
-public class TestSuite {
-	
+	Ex4_b.class ,  })
+public class TestSuite1 {
 	
 
 }
