@@ -57,18 +57,20 @@ public class Ex5 {
 	}
 	
 	@Test
+	public void TC_1_3_7_13_16_22 () {
+	boolean expected = true;
+	boolean result = StatusClass.checkOut(1700.00, 900, StatusClass.Status.bronze);
+	assertEquals(expected, result);
+	}
+	
+	@Test
 	public void TC_1_3_7_13_20 () {
 	boolean expected = false;
 	boolean result = StatusClass.checkOut(1600.00, 400, StatusClass.Status.bronze);
 	assertEquals(expected, result);
 	}
 
-	@Test
-	public void TC_1_3_7_13_16_22 () {
-	boolean expected = true;
-	boolean result = StatusClass.checkOut(1700.00, 900, StatusClass.Status.bronze);
-	assertEquals(expected, result);
-	}
+
 
 	
 }

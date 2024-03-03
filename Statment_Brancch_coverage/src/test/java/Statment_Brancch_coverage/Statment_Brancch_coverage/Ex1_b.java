@@ -3,7 +3,6 @@ package Statment_Brancch_coverage.Statment_Brancch_coverage;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import Statment_Brancch_coverage.Statment_Brancch_coverage.WeakClass;
 
 public class Ex1_b {
 	@Test

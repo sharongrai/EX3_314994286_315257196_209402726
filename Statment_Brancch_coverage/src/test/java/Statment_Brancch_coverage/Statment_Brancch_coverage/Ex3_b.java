@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import Statment_Brancch_coverage.Statment_Brancch_coverage.WeakClass;
-
 public class Ex3_b {
 	@Test
 	public void x_bigger_then_y() {
@@ -19,8 +17,7 @@ public class Ex3_b {
 	(expected =java.lang.ArithmeticException.class ) public void both_are_zero() {
 	   int x = 0;
 	   int y = 0;
-	   int result = WeakClass.WeakMethod3(x,y);
-	   int expected_result = 0;
+	   WeakClass.WeakMethod3(x,y);
 }
 
 }
